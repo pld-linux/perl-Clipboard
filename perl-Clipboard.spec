@@ -2,12 +2,12 @@
 Summary:	Copy and paste with any OS
 Summary(pl.UTF-8):	Kopiuj/Wklej niezależnie od systemu
 Name:		perl-Clipboard
-Version:	0.09
+Version:	0.13
 Release:	0.1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/K/KI/KING/Clipboard-%{version}.tar.gz
-# Source0-md5:	07c48138285eb46f5bfc338630ff4efd
+# Source0-md5:	691e17df1d4c074284c85abac6c0c973
 URL:		http://search.cpan.org/dist/Clipboard/
 BuildRequires:	perl(Spiffy)
 BuildRequires:	perl(Test::More)
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/clipjoin
 %dir %{perl_vendorlib}/Clipboard
 %{perl_vendorlib}/Clipboard.pm
-%{perl_vendorlib}/Clipboard/Pb.pm
+%{perl_vendorlib}/Clipboard/MacPasteboard.pm
 %{perl_vendorlib}/Clipboard/Win32.pm
 %{perl_vendorlib}/Clipboard/Xclip.pm
 %{_mandir}/man1/clipaccumulate.1p.*
