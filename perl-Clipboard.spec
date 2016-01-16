@@ -13,7 +13,6 @@ BuildRequires:	perl(Spiffy)
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	xclip
 Requires:	xclip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
