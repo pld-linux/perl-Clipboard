@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Copy and paste with any OS
 Summary(pl.UTF-8):	Kopiuj/Wklej niezależnie od systemu
 Name:		perl-Clipboard
